@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Reader
+  description: PDF Reader Core for iOS
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/Reader
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Objective-C
